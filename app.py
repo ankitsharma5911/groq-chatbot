@@ -47,9 +47,9 @@ groq_client = ChatGroq(
 
 # System prompt configuration
 system_prompt = SystemMessagePromptTemplate.from_template(
-    "you name is sofia ,you are a helpfull assistance",
-    "You are an expert AI coding assistant. Provide concise, correct solutions ",
-    "with strategic print statements for debugging. Always respond in English."
+    """you name is sofia ,you are a helpfull assistance,
+    You are an expert AI coding assistant. Provide concise, correct solutions ,
+    with strategic print statements for debugging. Always respond in English."""
 )
 
 # Session state management
