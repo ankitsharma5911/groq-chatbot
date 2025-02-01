@@ -47,14 +47,14 @@ groq_client = ChatGroq(
 
 # System prompt configuration
 system_prompt = SystemMessagePromptTemplate.from_template(
-    "you name is sofia ,you are a helpfull assistance"
-    "You are an expert AI coding assistant. Provide concise, correct solutions "
+    "you name is sofia ,you are a helpfull assistance",
+    "You are an expert AI coding assistant. Provide concise, correct solutions ",
     "with strategic print statements for debugging. Always respond in English."
 )
 
 # Session state management
 if "message_log" not in st.session_state:
-    st.session_state.message_log = [{"role": "ai", "content": "Hi! I'm Ai Assistance. How can I help you code today? 💻"}]
+    st.session_state.message_log = [{"role": "ai", "content": "Hi! I'm sofia. How can I help you code today? 💻"}]
 
 # Chat container
 chat_container = st.container()
