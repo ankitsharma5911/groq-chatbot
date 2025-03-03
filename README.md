@@ -4,7 +4,7 @@
 
 DeepSeek Code Companion is a Streamlit-based application that leverages the power of Groq and LangChain to provide an AI-powered coding assistant. It helps you with Python coding, debugging, code documentation, and solution design.
 
-![click here to access model](https://groq-free-chatbot.streamlit.app/)  
+[click here to access model](https://groq-free-chatbot.streamlit.app/)  
 
 ---
 
